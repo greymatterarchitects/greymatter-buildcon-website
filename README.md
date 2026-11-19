@@ -22,6 +22,19 @@ npx serve -l 4173
 - New site: JS syntax checked, all local references and ARIA/label targets resolved, tags and CSS balanced.
 - Rendered in Chromium: zero console errors, 18/18 images loaded, no horizontal overflow, all form inputs labeled, filters/modal/accordion/form validation exercised successfully.
 
+## SEO
+
+Optimised for "best architects in Hyderabad" and "best architects near Hyderabad":
+
+- Keyword-focused title, meta description, headings, image alt text and a visible FAQ section.
+- `ProfessionalService`, `WebSite` and `FAQPage` JSON-LD structured data with Hyderabad/Telangana location and service areas.
+- `robots.txt` and `sitemap.xml`; consistent name, address and email across the page and structured data.
+- Lighthouse on the local preview: SEO 100, Accessibility 100, Best Practices 100.
+
+**Before deploying to a custom domain**, update the canonical URL and Open Graph URL in `index.html`, plus the URLs in `sitemap.xml` and `robots.txt` (currently set to the GitHub Pages URL).
+
+No one can guarantee a number-one Google ranking. Rankings depend on factors outside this code, including a verified Google Business Profile, customer reviews, local citations/backlinks, crawlability after deployment and ongoing content. Submit the sitemap in Google Search Console once the site is live.
+
 ## Note on the enquiry form
 
 The form validates input and prepares a prefilled email to `greymatterarchitects@gmail.com`. It does not send data to a server or store anything, so no backend configuration is required.

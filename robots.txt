@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://greymatterarchitects.github.io/greymatter-buildcon-website/sitemap.xml
