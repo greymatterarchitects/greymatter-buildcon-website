@@ -29,6 +29,7 @@ Optimised for "best architects in Hyderabad" and "best architects near Hyderabad
 - Keyword-focused title, meta description, headings, image alt text and a visible FAQ section.
 - `ProfessionalService`, `WebSite` and `FAQPage` JSON-LD structured data with Hyderabad/Telangana location and service areas.
 - `robots.txt` and `sitemap.xml`; consistent name, address and email across the page and structured data.
+- Google Search Console verification is handled by the `google-site-verification` meta tag in `index.html`; keep it in the `<head>` permanently.
 - Lighthouse on the local preview: SEO 100, Accessibility 100, Best Practices 100.
 
 **Before deploying to a custom domain**, update the canonical URL and Open Graph URL in `index.html`, plus the URLs in `sitemap.xml` and `robots.txt` (currently set to the GitHub Pages URL).
