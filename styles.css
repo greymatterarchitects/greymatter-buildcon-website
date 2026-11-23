@@ -1020,3 +1020,13 @@ html.js .reveal.in { opacity: 1; transform: none; }
   html.js .reveal { opacity: 1; transform: none; transition: none; }
   *, *::before, *::after { animation-duration: 0.01ms !important; animation-iteration-count: 1 !important; transition-duration: 0.01ms !important; }
 }
+
+/* Architect selection guide */
+.architect-guide { max-width: 860px; }
+.architect-guide h1 { margin-block: 28px; }
+.architect-guide h2 { margin-block: 36px 10px; }
+.architect-guide p, .architect-guide li { line-height: 1.7; }
+.architect-guide a, .faq-list > p a { text-decoration: underline; text-underline-offset: .2em; }
+.architect-guide figure { margin: 24px 0; }
+.architect-guide figure img { display: block; width: 100%; height: auto; }
+.architect-guide figcaption { margin-top: 10px; font-size: .9rem; }
